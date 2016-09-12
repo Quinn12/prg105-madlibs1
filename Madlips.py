@@ -1,19 +1,19 @@
-star = "Planet"
-world = "Solar System"
-diamond = "emeral"
-sky = "Mall"
-sun = "gun"
-light = "might"
-dark = "light"
-tiny = "massive"
-he = "she"
-blue = "yellow"
-eye = "mouth"
+star = raw_input("Enter a object: ")
+world = raw_input("Enter a Place: ")
+diamond = raw_input("Enter a object: ")
+sky = raw_input("Enter a Place: ")
+sun = raw_input("Enter a object: ")
+light = raw_input("Enter a descriptive word: ")
+dark = raw_input("Enter a descriptive word: ")
+tiny = raw_input("Enter a size: ")
+he = raw_input("Enter a name: ")
+blue = raw_input("Enter a color: ")
+eye = raw_input("Enter a object: ")
 
 print ("Twinkle, twinkle, little " + star +",")
 print ("How I wonder where you are!")
 print ("Up above the " + world + " so high,")
-print ("Like a " + diamond + "in the sky.")
+print ("Like a " + diamond + "in the " + sky + " .")
 
 print ("When the blazing " + sun + "is gone,")
 print ("When he nothing shines upon,")
